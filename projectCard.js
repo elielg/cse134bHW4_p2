@@ -7,7 +7,7 @@ class ProjectCard extends HTMLElement {
             title: 'Local Storage Load',
             imageSource: 'https://encrypted-tbn2.gstatic.com/licensed-image?q=tbn:ANd9GcTbX4kyAKSWkOT_amdu2gC9C2RKjaE6ZQrnLOpK1XSNy41NC0cSZw6eVVBW4lPAAJe_YcF2UAvDhp8pQxc',
             Description: 'This description was loaded from local storage',
-            linkUrl: 'https://youtu.be/dQw4w9WgXcQ'
+            linkUrl: 'https://en.wikipedia.org/wiki/University_of_California,_San_Diego'
         };
 
         // Convert JSON data to a string
