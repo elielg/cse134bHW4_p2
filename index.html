@@ -4,6 +4,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Project Gallery</title>
+  <script src  = "projectCard.js"></script>
   <!--
       Add CSS as you like linked or otherwise, but encapsulate most within the card components.  
 
@@ -14,6 +15,17 @@
 </head>
 
 <body>
+
+
+  <h3>Hello world</h3>
+  <user-card name="John Doe" avatar="https://randomuser.me/api/portraits/men/1.jpg">
+    <div slot="email">johndoe@gmail.com</div>
+    <div slot="phone">555-555-5555</div>
+  </user-card>
+  <user-card name="Jane Doe" avatar="https://randomuser.me/api/portraits/women/1.jpg">
+    <div slot="email">janedoe@gmail.com</div>
+    <div slot="phone">333-333-3333</div>
+  </user-card>
   <!--
       This page will contain a list of cards which will contain cards that overview each project in 
       your portfolio. You will dynamically create these cards as CustomElements using JavaScript 
@@ -71,5 +83,4 @@
       require the grader to install anything or run any build scripts.
     -->
 </body>
-
 </html>
