@@ -46,8 +46,14 @@ class UserCard extends HTMLElement {
 
     this.attachShadow({ mode: 'open' });
     this.shadowRoot.appendChild(template.content.cloneNode(true));
-    this.shadowRoot.querySelector('h3').innerText = this.getAttribute('name');
-    this.shadowRoot.querySelector('img').src = this.getAttribute('avatar');
+
+    const name = this.getAttribute('name');
+    const avatar = this.getAttribute('avatar');
+    console.log('Name:', name);
+    console.log('Avatar:', avatar);
+
+    this.shadowRoot.querySelector('h3').innerText = name;
+    this.shadowRoot.querySelector('img').src = avatar;
   }
 
   toggleInfo() {
